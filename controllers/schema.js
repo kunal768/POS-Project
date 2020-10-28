@@ -51,11 +51,6 @@ exports.typeDefs = gql(`
         shelf_number : Int!
     }
 
-
-    type Query {
-        dummy : String!
-    }
-
     type book_response {
         name : String!
         author : String!
