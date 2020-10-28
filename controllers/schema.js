@@ -1,6 +1,10 @@
 const { gql } = require('apollo-server')
 
 exports.typeDefs = gql(`
+    type Query {
+        return_userlist(input : usertype) : [String]
+        return_booklist(input : shelfnumber) : [String]
+    }
     type Mutation {
         add_user(input : user_details) : Response!
         delete_user(input : delete_details) : String
@@ -39,6 +43,14 @@ exports.typeDefs = gql(`
         username : String!
         book : String!
     }
+    input usertype {
+        user_type : Int!
+    }
+
+    input shelfnumber{
+        shelf_number : Int!
+    }
+
 
     type Query {
         dummy : String!
