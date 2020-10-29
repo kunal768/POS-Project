@@ -4,7 +4,7 @@ const { typeDefs } = require('./controllers/schema')
 const resolvers = require('./controllers/resolver')
 const mongoose = require('mongoose')
 
-const db_url = 'mongodb+srv://admin:kunal768@cluster0.tbcqu.mongodb.net/test'
+const db_url = '<add db url>'
 
 const server = new ApolloServer({
     typeDefs,
@@ -21,7 +21,7 @@ mongoose.connect(db_url,{useNewUrlParser : true}, (err, _) => {
     }
 })
 
-const PORT = process.env.PORT || "3000";
+const PORT = process.env.PORT || "5000";
 server.listen(PORT)
 
 
