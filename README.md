@@ -14,8 +14,13 @@ Thanks for the entire Front-End contribution :heart: : [Sid](https://github.com/
 
 ### To Run 
 
+### Add MongoDB URI in [app.js](https://github.com/kunal768/POS-Project/blob/main/app.js) 
+```javascript
+const db_url = '<add db url>'
+```
+
 #### Run Server 
-``` vim 
+```termux 
   $ npm start
 ```
 #### Run Client
