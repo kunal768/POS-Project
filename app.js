@@ -4,7 +4,7 @@ const { typeDefs } = require('./controllers/schema')
 const resolvers = require('./controllers/resolver')
 const mongoose = require('mongoose')
 
-const db_url = '<add db url>'
+const db_url = process.env.db_url
 
 const server = new ApolloServer({
     typeDefs,
