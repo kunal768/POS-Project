@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kunal768/E-Lib#readme",
   "dependencies": {
-    "apollo-server": "^2.17.0",
+    "apollo-server": "^2.25.3",
     "apollo-server-express": "^2.17.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
