@@ -1,7 +1,5 @@
 # E-Library Management Application
 
-Thanks for the entire Front-End contribution :heart: : [Sid](https://github.com/Sid200026)
-
 ### Installation 
 ``` vim
  $ git clone https://github.com/kunal768/POS-Project.git
