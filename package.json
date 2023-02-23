@@ -30,7 +30,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.5",
     "nodemon": "^2.0.4",
-    "sequelize": "^6.3.5",
+    "sequelize": "^6.28.2",
     "winston": "^3.3.3"
   }
 }
